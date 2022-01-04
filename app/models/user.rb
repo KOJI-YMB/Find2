@@ -5,4 +5,9 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable,
          :confirmable, :lockable, :timeoutable
         #  :omniauthable
+
+  has_many :cart_items
+  has_many :shopping_addresses
+  has_many :orders
+  has_many :items, througt: :cart_items
 end
