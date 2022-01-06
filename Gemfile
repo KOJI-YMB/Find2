@@ -20,7 +20,7 @@ gem 'devise'
 gem 'devise-i18n-views'
 #React-Rails導入
 gem 'react-rails'
-# gem 'webpacker'
+gem 'webpacker'
 
 gem 'mini_magick'
 gem 'kaminari'
